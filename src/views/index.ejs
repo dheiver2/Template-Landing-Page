@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include('partials/navigation') %>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1><%= title %></h1>
+            <p><%= description %></p>
+            <a href="#" class="cta-button" id="cta-button">Comece Agora</a>
+        </div>
+    </section>
+
+    <%- include('partials/footer') %>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
